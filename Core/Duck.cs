@@ -13,6 +13,17 @@ namespace DesignPatterns.Strategy.Core
             this.fly=fly;
             this.quack=quack;
         }
+        public void SetDisplay(IDisplay display){
+            this.display = display;
+        }
+
+        public void SetFly(IFly fly){
+            this.fly = fly;
+        }
+
+        public void SetDisplay(IQuack quack){
+            this.quack = quack;
+        }
 
         public void Quack(){
             quack.Quack();
