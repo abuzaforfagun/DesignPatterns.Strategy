@@ -1,6 +1,6 @@
 namespace DesignPatterns.Strategy.Core
 {
-    public class DisplayRealDuck
+    public class DisplayD
     {
         
     }
