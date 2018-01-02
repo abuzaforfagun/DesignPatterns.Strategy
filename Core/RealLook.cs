@@ -1,6 +1,6 @@
 namespace DesignPatterns.Strategy.Core
 {
-    public class RealDuck : IDisplay
+    public class RealLook : IDisplay
     {
         void IDisplay.Display()
         {
